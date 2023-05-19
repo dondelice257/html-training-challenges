@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="create.html" rel="create.html">
+    <title>Facebook login page</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        #login{
+            position: relative;
+            left: 38em;
+            background-color: white;
+            width: 20em;
+            height: 15em;
+            border-radius: 10px;
+            border-width: 3em;
+            border-color: brown;
+            bottom: 3em;
+        }
+        input{
+            position: relative;
+            width: 18em;
+            height: 2em;
+            left: 30px;
+            bottom: -8px;
+        }
+        .infos{
+            position: relative;
+            left: 7em;
+            color: blue;
+            bottom: -8em;
+        }
+        .infos h1{
+            font-size: 2em;
+        }
+
+        .infos h2{
+            color: black;
+            font-weight: lighter;
+            font-size: 30px;
+
+        }
+        #login h4{
+            text-align: center;
+            color: blue;
+        }
+        .line{
+            position: relative;
+            width: 30em;
+            left: 18px;
+            right: 40px;
+            font-size: 10px;
+        }
+        .create{
+            position: relative;
+            left: 6em;
+            width: 10em;
+            color: white;
+            background-color: rgb(17, 193, 105);
+            border-radius: 5px;
+        }
+        .submit{
+            background-color: blue;
+            color: white;
+            border-collapse: collapse;
+        }
+        #login h5{
+            position: relative;
+            bottom: 2px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="infos">
+        <h1>facebook</h1>
+        <h2>
+            Facebook helps you connect and share with the <br>people in your life.
+        </h2>
+    </section>
+    <form>
+        <div id="login">
+            <input type="text" placeholder="Enter the email or phone number"><br><br>
+            <input type="password" placeholder="enter the password here"><br><br>
+            <input class="submit"type="submit" value="Log in">
+            <h4>Forgotten password?</h4>
+            <hr class="line">
+            <a href="create.html" rel="create.html">
+                <input class = "create" type="button" value="Create New Account">
+            </a>
+            <h5>create a page for celebrity, band or business</h5>
+        </div>
+    </form>
+</body>
+</html>
